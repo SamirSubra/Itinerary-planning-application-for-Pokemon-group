@@ -1,0 +1,43 @@
+.root{
+    -fx-background-image: url("../Ressources/fond.png"); /* Mise en place de l'image de fond */
+}
+
+
+.label {
+    -fx-font-size: 1.7em;
+    -fx-font-weight:bold;
+    -fx-text-fill: #2D4D6A;
+
+}
+
+.button {
+    -fx-font-size: 1.3em;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.combo-box{
+    -fx-font-size: 1.3em;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button:selected {
+    -fx-background-color: gainsboro;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.scroll-pane{
+    -fx-background-color: #F6DAD3;
+    -fx-border-color: #F6DAD3;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+
+}
+
+#cssVille{
+    -fx-text-fill: #7C8185;
+    -fx-font-weight:bold;
+    -fx-font-size: 2.0em;
+}
